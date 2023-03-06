@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Hakaton.Domain.DTOs
+{
+    public class UserVisitedPlaceForCreationDto
+    {
+        public int UserId { get; set; }
+        public int VisitedPlaceId { get; set; }
+    }
+}
